@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Upt</title>
+    <style>
+        body {
+			background-image: url('background hackathon.py.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 100vh;
+			margin: 0;
+            
+		}
+        #background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+       
+        #x:hover{
+            color:red;
+        }
+       
+        #signup-form{
+           
+            margin-top: 200px;
+           padding-top: 5px;
+           
+
+           
+            
+            color:white;
+            text-align: center;
+            
+        }
+        #from-lable{
+            font-size: large;
+        }
+        
+
+
+        
+        
+    </style>
+</head>
+<body>
+   <div class="p">
+    <h1 style="text-align: center;color:white">SIGNUP FOR
+        M</h1>
+    <form id="signup-form">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+            <div id="name-help" class="form-text">We'll never share your name with anyone else.</div>
+        </div><br><br><br>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+            <div id="email-help" class="form-text">We'll never share your email with anyone else.</div>
+        </div><br><br><br>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div><br><br><br>
+        <div class="mb-3">
+            <label for="confirm-password" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="confirm-password" name="confirm-password"
+                required>
+        </div><br><br><br>
+        <button type="submit" class="btn btn-primary" id="x"><a href="freelancer.html">Create Account</a></button>
+        <button type="submit"><a href="freelancer.html">back to home</a></button>
+        <video id="background-video" autoplay loop muted>
+            <source src="2324166-uhd_3840_2160_25fps.mp4" type="video/mp4">
+        </video>
+    </form> 
+   </div>
+   
+
+    
+</body>
+</html>
